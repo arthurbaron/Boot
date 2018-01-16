@@ -1,0 +1,33 @@
+/* Main CSS file
+Author: Arthur
+Overwriting bootstrap default styles
+*/ 
+
+/*
+Colors
+
+color-white: #FFFCF2;
+color-gray: #CCC5B9;
+color-brown: #403D39;
+color-black: #252422;
+color-orange: #EB5E28;*/
+
+body, html{
+    background-color: #252422;
+    color:#FFFCF2;
+}
+
+a{
+    color: #FFFCF2;
+}
+
+a:hover{
+    color: #FFFCF2;
+    text-decoration: none; 
+}
+
+.header-bg{
+    background-color: #403d39;
+    height: auto;
+    padding: 1em;
+}
