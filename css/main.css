@@ -17,17 +17,61 @@ body, html{
     color:#FFFCF2;
 }
 
-a{
-    color: #FFFCF2;
+
+
+.header-main a{
+    color: #252422;
 }
 
 a:hover{
-    color: #FFFCF2;
+    color: #252422;
     text-decoration: none; 
 }
 
 .header-bg{
-    background-color: #403d39;
+    background-color: #CCC5B9;
     height: auto;
+    padding: 0.5em;
+}
+
+/* Cards */
+
+
+.card-list{
+    padding: 2em 0;
+}
+
+.card-list-header{
+    margin: 0.5em 0;
+}
+
+.card-view-more{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: right;
     padding: 1em;
+    border: 0;
+}
+
+.card-view-more a{
+    color: #CCC5B9;
+}
+
+.card {
+    background-color: #403D39;
+    margin: 1em 0;
+    border: 0;
+}
+
+.card-text{
+    color: #CCC5B9;
+}
+
+.card .btn-primary {
+    background-color: #EB5E28;
+    border: none;
+}
+
+.card .btn-primary:hover{
+    background-color: #C14D21;
 }
