@@ -10,7 +10,10 @@ color-white: #FFFCF2;
 color-gray: #CCC5B9;
 color-brown: #403D39;
 color-black: #252422;
-color-orange: #EB5E28;*/
+color-orange: #EB5E28;
+
+
+*/
 
 /* Keyframes */
 
@@ -79,6 +82,15 @@ a:hover{
 }
 
 .hero-content .btn-primary{
+    background-color: #EB5E28;
+    border: 0;
+    transition: transform 0.3s ease-out;
+}
+
+.hero-content .btn-primary:hover{
+    background-color: #EB5E28;
+    border: 0;
+    transform: translate(0px, -2px);
 }
 
 /* Navigation*/
@@ -106,7 +118,15 @@ a:hover{
 
 
 .card-list{
-   margin-top: 3em;
+margin-top: 2em;
+    
+}
+
+.card-list h2{
+    animation: 1s ease-out 0.9s 1 slideInFromTop;
+    text-align: center;
+    margin-bottom: 0.5em;
+
 }
 
 
@@ -114,7 +134,6 @@ a:hover{
     display: flex;
     flex-direction: column-reverse;
     text-align: right;
-    
     border: 0;
 }
 
@@ -126,6 +145,7 @@ a:hover{
     background-color: #403D39;
     margin: 1em 0;
     border: 0;
+    animation: 1s ease-out 0.9s 1 slideInFromTop;
 
 }
 .card-text{
@@ -133,12 +153,13 @@ a:hover{
 }
 
 .card .btn-primary {
-    background-color: #EB5E28;
-    border: none;
+    background-color: transparent;
+    color: #CCC5B9;
+    border: 1px solid;
     transition: transform 0.3s ease-out;
 }
 
 .card .btn-primary:hover{
-    background-color: #C14D21;
-        transform: translate(0px, -2px);
+    background-color: transparent;
+    transform: translate(0px, -2px);
 }
